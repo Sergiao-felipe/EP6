@@ -7,6 +7,6 @@ function funcaoCorrigir(){
     }
     else{ document. getElementById("retorno") InnerHTML = " Errou, Cabaço!";
     }    
-    elset alert(*tem que escolher uma opação, cabaçol *):
+    elset alert(*tem que escolher uma opação, cabaço!*);
     }
 }

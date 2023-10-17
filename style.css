@@ -12,7 +12,7 @@ aside{
     background-color: #ffffff;
     align-items: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 main{
     grid-area: prin;
@@ -20,6 +20,8 @@ main{
     color: rgb(0, 0, 0);
     text-align: center;
     display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 main img{
@@ -31,7 +33,7 @@ main h2{
 }
 
 main p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: left;
 }    
 main li{

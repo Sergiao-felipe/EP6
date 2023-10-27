@@ -1,3 +1,31 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header img{
+    width: 300px;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+
 .verde{
     color: green;
 }

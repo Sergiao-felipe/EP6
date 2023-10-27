@@ -52,6 +52,55 @@ function funcao_resposta(){
             document.getElementById("resp_errada_4").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
 
         }
+        if(resp4.value == "correta"){
+            document.getElementById("resp_correta_5").innerHTML = "Correta!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
+            contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_5").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
+
+        }
+        if(resp4.value == "correta"){
+            document.getElementById("resp_correta_6").innerHTML = "Correta!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
+            contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_6").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
+
+        }
+        if(resp4.value == "correta"){
+            document.getElementById("resp_correta_7").innerHTML = "Correta!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
+            contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_7").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
+
+        }
+        if(resp4.value == "correta"){
+            document.getElementById("resp_correta_8").innerHTML = "Correta!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
+            contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_8").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
+
+        }
+        if(resp4.value == "correta"){
+            document.getElementById("resp_correta_9").innerHTML = "Correta!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
+            contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_9").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
+
+        }
+        if(resp4.value == "correta"){
+            document.getElementById("resp_correta_10").innerHTML = "Correta!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
+            contador = contador + 1;
+        }
+        else{
+            document.getElementById("resp_errada_10").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ERROU) */
+
+        }
+        
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";/* AQUI ELE DEFINE SE VOCE ACERTOU OU ERROU A QUESTAO (NO CASO ACERTOU) */
     }
     else{

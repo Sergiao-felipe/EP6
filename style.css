@@ -17,9 +17,14 @@ header img{
     width: 300px;
 }
 
-h1{
+.hed{
     color: rgb(255, 255, 255);
     text-align: center;
+}
+
+.mn{
+    color: rgb(0, 0, 0);
+    text-align: left;
 }
 
 h2{
